@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container left">
+        <div id="new-project"><i class="material-symbols-outlined">add_ad</i>New Project</div>
+        <div id="project-container" class="projects-container">
+        </div>
+        
+    </div>
+    <div class="container right">
+        <div class="header"><div id="project-title" class="header-left">No Projects Yet...<p>Click the "New Project" button</p></div><div class="header-right">ADLY.AI<i class="material-symbols-outlined">ads_click</i></div></div>
+        <div class="light"></div>
+        <div id="workspace">
+            <div id="frame">
+            </div>
+            <div id="prompt-container"><input type="text" placeholder="Write a prompt here..."><i class="material-symbols-outlined">send</i></div>
+        </div>
+        <div id="elementspace">
+            <input id='upload-img' type="file" accept="image/*">
+            <i id='arrow' class="material-symbols-outlined element-select">arrow_selector_tool</i>
+            <i id='textbox' class="material-symbols-outlined ">insert_text</i>
+            <label for='upload-img' class="material-symbols-outlined">upload</label>
+            <i id="download-button" class="material-symbols-outlined">download_for_offline</i>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

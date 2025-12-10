@@ -535,3 +535,13 @@ select{
     height: auto !important;
     object-fit: contain;
 }
+
+* {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Hide scrollbar for WebKit browsers */
+*::-webkit-scrollbar {
+    display: none;
+}
